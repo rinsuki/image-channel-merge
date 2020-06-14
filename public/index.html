@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1>image channel merge</h1>
+        <form action="javascript://" id="form">
+            <table border="1">
+                <tr id="header">
+                    <td></td>
+                </tr>
+                <tr id="header2">
+                    <td></td>
+                </tr>
+                <tr id="r">
+                    <th>R</th>
+                </tr>
+                <tr id="g">
+                    <th>G</th>
+                </tr>
+                <tr id="b">
+                    <th>B</th>
+                </tr>
+                <tr id="a">
+                    <th>A</th>
+                </tr>
+            </table>
+            <button type="submit">Generate</button>
+        </form>
+        <canvas id="canvas"></canvas>
+        <script src="./script.js"></script>
+        <style>
+            td > label {
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+            }
+        </style>
+    </body>
+</html>
